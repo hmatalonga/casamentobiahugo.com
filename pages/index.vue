@@ -4,7 +4,7 @@
       <div class="grid min-h-svh lg:min-h-full">
         <AppHeader />
         <div class="flex items-start justify-center">
-          <NuxtImg class="min-w-48 w-1/4 md:w-1/5 lg:w-1/6 lg:max-w-lg h-auto" src="/images/logo_mask_white.png"
+          <NuxtImg class="min-w-48 w-1/4 md:w-1/5 lg:w-1/6 lg:max-w-lg h-auto" src="/images/logo_bird_small.png"
             placeholder />
         </div>
         <div
