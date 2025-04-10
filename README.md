@@ -4,3 +4,8 @@
 
 ## Design Inspiration
 - https://cambiumfarms.com/
+
+## Pix
+- https://github.com/marcelojannotti/pix-js-object
+- https://github.com/marcelbrilha/gerador-pix
+- https://github.com/Mostela/pix-qrcode

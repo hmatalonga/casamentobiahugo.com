@@ -6,6 +6,7 @@
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h1 class="sr-only">Contactos</h1>
           <h1 class="text-3xl font-bold tracking-tight text-gray-900 text-center">Contactos</h1>
+          <p class="mt-2 text-base/8 text-gray-600 text-center">Caso tenha alguma dúvida, não hesite em nos contactar.</p>
         </div>
         <!-- <div class="mx-auto max-w-2xl text-center">
           <h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Contactos</h2>
@@ -43,10 +44,10 @@
                     </a>
                   </div>
                   <div class="-ml-px flex w-0 flex-1">
-                    <a :href="`tel:${person.telephone}`"
+                    <a :href="`https://wa.me/${person.telephone}`"
                       class="relative inline-flex w-0 flex-1 items-center justify-center gap-x-3 rounded-br-lg border border-transparent py-4 text-sm font-semibold text-gray-900">
                       <PhoneIcon class="size-5 text-gray-400" aria-hidden="true" />
-                      Call
+                      WhatsApp
                     </a>
                   </div>
                 </div>
@@ -68,7 +69,7 @@ const people = [
     email: 'britocbeatriz@gmail.com',
     title: 'A mente criativa',
     role: 'Noiva',
-    telephone: '+351 937 116 008',
+    telephone: '+351937116008',
     imageUrl: '/images/profile_bia.jpg',
   },
   {
@@ -76,7 +77,7 @@ const people = [
     title: 'O programador',
     role: 'Noivo',
     email: 'hmatalonga@gmail.com',
-    telephone: '+351 918 208 235',
+    telephone: '+351918208235',
     imageUrl: '/images/profile_hugo.jpg',
   },
   // More people...

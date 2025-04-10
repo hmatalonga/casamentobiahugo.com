@@ -82,7 +82,9 @@
           </nav>
           <div>
             <p class="text-base/8 text-gray-900">Nosso casamento foi pensado para juntar um pouquinho de Portugal
-              Esperamos muito que você venha e aproveite cada momento. Serão 15h de festa, então vamos juntos fazer cada parte valer a pena 💖</p>
+              Esperamos muito que você venha e aproveite cada momento. Serão 15h de festa, então vamos juntos fazer cada
+              parte
+              valer a pena 💖</p>
           </div>
         </div>
       </main>
@@ -94,7 +96,7 @@
 import { CheckIcon } from '@heroicons/vue/20/solid'
 
 const steps = [
-  { name: '13:30 - Recepção e Copo D\'água', description: 'Este é o momento de chegada de todos os convidados, com direito a umas boas taças de champanhe! Momento de descontração, que também será de grande ajuda para o noivo não ficar tão nervoso. 😉', href: '#', status: 'complete' },
+  { name: '13:30 - Recepção & Boas Vindas', description: 'Este é o momento de chegada de todos os convidados, com direito a umas boas taças de champanhe! Momento de descontração, que também será de grande ajuda para o noivo não ficar tão nervoso. 😉', href: '#', status: 'complete' },
   { name: '14:15 - Início da Cerimônia 💒', description: '', href: '#', status: 'current' },
   { name: '15:00 - Fotos, Finger Foods & Música', description: 'Após a cerimônia, seguimos com as fotos. Durante este tempo, serão servidos finger foods da culinária portuguesa, já para começarem a sentir o gostinho tuga! Também teremos DJ para entrar no clima. 🪩', href: '#', status: 'upcoming' },
   { name: '16:30 - Recepção Gastronômica', description: 'Aqui, todos sentam-se à mesa e desfrutam de uma refeição tradicional - garantimos que será uma experiência única. 🍷', href: '#', status: 'upcoming' },

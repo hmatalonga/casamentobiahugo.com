@@ -4,8 +4,11 @@
     <div class="py-10">
       <header>
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h1 class="sr-only">Lista de Presentes</h1>
-          <h1 class="text-3xl font-bold tracking-tight text-gray-900 text-center">Lista de Presentes</h1>
+          <h1 class="sr-only">Sobre presentes e tradições 💌</h1>
+          <h1 class="text-3xl font-bold tracking-tight text-gray-900 text-center">Sobre presentes e tradições 💌</h1>
+          <p class="mt-4 text-base/8 text-gray-600">Em Portugal, é tradicional que os convidados levem um envelope com uma contribuição em dinheiro no dia do casamento. É uma forma simbólica de apoiar o casal nesse novo começo — uma tradição que vem cheia de afeto e significado.</p>
+          <p class="mt-2 text-base/8 text-gray-600">Como a gente sabe que o euro não anda dos mais simpáticos ultimamente, além dessa possibilidade, também vamos compartilhar algumas sugestões de prendas — pra quem quiser se fazer presente de outro jeito, com o mesmo carinho.</p>
+          <p class="mt-2 text-base/8 text-gray-600">O que mais queremos é celebrar esse momento com quem a gente ama. No fim das contas, o mais importante é ter vocês lá com a gente. O resto vem do coração — e isso vale mais do que qualquer costume. 💛</p>
         </div>
       </header>
       <main>
@@ -32,7 +35,7 @@ const products = [
     href: '#',
     imageSrc: '/images/gift_safari.jpg',
     imageAlt: "Safari em Zanzibar",
-    price: 'R$500',
+    price: 'R$1000',
   },
   {
     id: 2,
@@ -40,7 +43,7 @@ const products = [
     href: '#',
     imageSrc: '/images/gift_coffee.jpg',
     imageAlt: "Café super faturado da Bia",
-    price: 'R$200',
+    price: 'R$100',
   },
   {
     id: 3,
@@ -56,7 +59,7 @@ const products = [
     href: '#',
     imageSrc: '/images/gift_cooking.jpg',
     imageAlt: "Aula de culinária para o Hugo",
-    price: 'R$300',
+    price: 'R$150',
   },
   {
     id: 5,
@@ -72,7 +75,7 @@ const products = [
     href: '#',
     imageSrc: '/images/gift_gym.jpg',
     imageAlt: "1 Ano de Academia para o Hugo",
-    price: 'R$300',
+    price: 'R$200',
   },
   {
     id: 7,
@@ -88,7 +91,7 @@ const products = [
     href: '#',
     imageSrc: '/images/gift_dog.jpg',
     imageAlt: "Para a creche da Brownie durante a Lua de Mel",
-    price: 'R$700',
+    price: 'R$600',
   },
   {
     id: 9,
@@ -96,7 +99,7 @@ const products = [
     href: '#',
     imageSrc: '/images/gift_party.jpg',
     imageAlt: '"Eu não vou embora!" Ajuda para hora extra dos fornecedoress',
-    price: 'R$500',
+    price: 'R$700',
   },
   {
     id: 10,
@@ -104,7 +107,7 @@ const products = [
     href: '#',
     imageSrc: '/images/gift_massage.jpg',
     imageAlt: 'Massagem de casal no Resort',
-    price: 'R$1000',
+    price: 'R$500',
   },
   // More products...
 ]
