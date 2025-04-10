@@ -12,7 +12,7 @@
         <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
           <div>
             <h2 class="text-xl/7 font-semibold text-indigo-600">Oi, família e amigos!</h2>
-            <p class="mt-2 text-base/8 text-gray-900">Nosso casamento foi pensado para juntar um pouquinho de Portugal
+            <p class="mt-2 text-base/8 text-gray-600">Nosso casamento foi pensado para juntar um pouquinho de Portugal
               com um bocado de Pernambuco — afinal, se é
               pra celebrar, que seja do nosso jeitinho, né?
               Como a turma de Recife vai chegar em peso (e a gente sabe que vocês não brincam em serviço quando o
