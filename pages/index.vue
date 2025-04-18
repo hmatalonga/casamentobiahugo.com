@@ -1,105 +1,42 @@
 <template>
   <div>
-    <header class="absolute inset-x-0 top-0 z-50">
-      <NavBar />
+    <header>
+      <div class="bg-pink-950 py-8">
+        <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+          <div class="flex flex-col justify-center items-center">
+            <h1 class="font-display text-3xl text-center text-amber-100 sm:text-5xl">Bia & Hugo</h1>
+            <NuxtImg class="w-auto rounded-lg h-auto mt-4 sm:mt-6 lg:mt-8 md:w-2/3 lg:w-1/2" src="/images/hero5.jpeg" placeholder />
+            <h2 class="font-note text-4xl text-center text-amber-100 -rotate-6 sm:text-6xl">Vamos casar!</h2>
+          </div>
+        </div>
+      </div>
     </header>
-    <div class="relative isolate px-6 pt-14 lg:px-8">
-      <div class="absolute inset-x-0 -top-10 -z-10 transform-gpu overflow-hidden" aria-hidden="true">
-        <div class="relative bg-hero bg-no-repeat bg-cover bg-center min-h-screen"></div>
-      </div>
-      <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-        <div class="hidden sm:mb-4 sm:flex sm:justify-center">
-          <NuxtImg class="min-w-48 w-1/4 md:w-1/5 lg:w-1/6 xl:max-w-xl h-auto" src="/images/logo_bird_small.png"
-            placeholder />
-        </div>
-        <div class="text-center">
-          <span
-            class="box-decoration-slice bg-gradient-to-r from-emerald-600 text-white px-2 text-balance text-5xl font-serif font-semibold tracking-tight sm:text-7xl">
-            A Historic Setting</br> for a Modern Love Story</span>
-          <!-- <h1 class="text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl">Data to enrich your online business</h1>
-          <p class="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat.</p>
-          <div class="mt-10 flex items-center justify-center gap-x-6">
-            <a href="#" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
-            <a href="#" class="text-sm/6 font-semibold text-gray-900">Learn more <span aria-hidden="true">→</span></a>
-          </div> -->
-        </div>
-      </div>
-    </div>
 
     <main>
-      <div class="relative top-10 bg-pattern">
-        <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-          <div class="prose mx-auto max-w-3xl lg:prose-lg">
-            <h1 class="font-serif text-center text-gray-700">A Historic Setting <br> for a Modern Love Story.</h1>
-            <p class="font-sans text-center text-gray-700">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit sapien quam, eget efficitur
-              quam
-              auctor eu. Curabitur at lectus pharetra, facilisis turpis nec, rhoncus sem. Vestibulum volutpat lectus
-              quis
-              ligula tincidunt, ut fringilla justo fringilla. Nulla gravida nisl quis mauris malesuada, quis condimentum
-              metus pharetra. Quisque in maximus elit. Sed porta tincidunt purus id ullamcorper. Duis iaculis ante ac
-              purus sodales, ut sollicitudin risus porttitor. Nulla et leo ipsum. Nulla fringilla nunc quis augue
-              lobortis, sit amet rutrum turpis facilisis.
-            </p>
-            <p class="font-sans text-center text-gray-700">
-              Nam dignissim risus purus, et scelerisque risus fringilla nec. Phasellus nisi sem, dictum non tincidunt
-              eu,
-              tempor eu turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              Aenean tempor tortor in ultrices bibendum. Curabitur accumsan ex justo, quis fringilla massa varius id.
-              Vestibulum sed dapibus enim, nec rutrum erat. In at eros risus. Donec mattis sit amet odio et ullamcorper.
-              Quisque dignissim ullamcorper hendrerit.
-            </p>
+      <div class="border-t-2 border-amber-100 bg-pink-950">
+        <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-2 gap-4 sm:grid-cols-3">
+            <NuxtLink to="/event" class="font-display text-xl underline text-amber-100 text-center">Evento</NuxtLink>
+            <NuxtLink to="/accommodation" class="font-display text-xl underline text-amber-100 text-center">Alojamento</NuxtLink>
+            <NuxtLink to="/contacts" class="font-display text-xl underline text-amber-100 text-center col-span-full sm:col-auto">Contactos</NuxtLink>
+          </div>
+        </div>
+      </div>
+      <div class="bg-stripes">
+        <div class="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
+          <div class="border-8 border-amber-100">
+            <div class="bg-amber-100 border-2 border-pink-950 py-16">
+            <div class="flex flex-col justify-center items-center">
+              <div class="font-display text-4xl text-center">6 de Setembro 2025</div>
+              <div class="font-note text-2xl mt-2 text-center">Casa Salgueiro, Labruge, Portugal</div>
+              <NuxtLink to="/rsvp" class="rounded-full bg-pink-950 px-12 py-2.5 mt-16 font-display underline text-lg text-amber-100 shadow-sm hover:bg-pink-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-600">RSVP</NuxtLink>
+            </div>
+          </div>
           </div>
         </div>
       </div>
     </main>
-
   </div>
-
-  <!-- <div>
-    <div class="bg-hero bg-no-repeat bg-cover bg-center sm:h-screen">
-      <div class="grid min-h-svh lg:min-h-full">
-        <NavBar />
-        <div class="flex items-start justify-center">
-          <NuxtImg class="min-w-48 w-1/4 md:w-1/5 lg:w-1/6 lg:max-w-lg h-auto" src="/images/logo_bird_small.png"
-            placeholder />
-        </div>
-        <div
-          class="flex flex-col items-center justify-center px-6 pb-6 lg:flex-row lg:justify-between lg:items-end lg:px-8 lg:pb-8">
-          <div
-            class="max-w-2xl font-serif font-light uppercase text-6xl text-center text-gray-200 lg:text-left lg:text-8xl">
-            Rustic Elegance
-          </div>
-          <div
-            class="max-w-2xl font-serif font-light uppercase text-6xl text-center text-gray-200 lg:text-right lg:text-8xl">
-            Natural Serenity</div>
-        </div>
-      </div>
-    </div>
-    <div class="bg-pattern">
-      <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-        <!-- We've used 3xl here, but feel free to try other max-widths based on your needs -->
-  <!-- <div class="prose mx-auto max-w-3xl lg:prose-lg">
-          <h1 class="font-serif text-center text-gray-700">A Historic Setting <br> for a Modern Love Story.</h1>
-          <p class="font-sans text-center text-gray-700">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur suscipit sapien quam, eget efficitur quam
-            auctor eu. Curabitur at lectus pharetra, facilisis turpis nec, rhoncus sem. Vestibulum volutpat lectus quis
-            ligula tincidunt, ut fringilla justo fringilla. Nulla gravida nisl quis mauris malesuada, quis condimentum
-            metus pharetra. Quisque in maximus elit. Sed porta tincidunt purus id ullamcorper. Duis iaculis ante ac
-            purus sodales, ut sollicitudin risus porttitor. Nulla et leo ipsum. Nulla fringilla nunc quis augue
-            lobortis, sit amet rutrum turpis facilisis.
-          </p>
-          <p class="font-sans text-center text-gray-700">
-            Nam dignissim risus purus, et scelerisque risus fringilla nec. Phasellus nisi sem, dictum non tincidunt eu,
-            tempor eu turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            Aenean tempor tortor in ultrices bibendum. Curabitur accumsan ex justo, quis fringilla massa varius id.
-            Vestibulum sed dapibus enim, nec rutrum erat. In at eros risus. Donec mattis sit amet odio et ullamcorper.
-            Quisque dignissim ullamcorper hendrerit.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div> -->
 </template>
 
 <script lang="ts" setup>

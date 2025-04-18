@@ -9,6 +9,10 @@ export default {
       serif: ['Cormorant Garamond', 'ui-serif'],
     },
     extend: {
+      fontFamily: {
+        display: ['Cinzel', 'ui-serif'],
+        note: ['Bad Script', 'cursive'],
+      },
       backgroundImage: {
         hero: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/images/hero2.jpeg')",
       },
