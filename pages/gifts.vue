@@ -28,6 +28,10 @@
 </template>
 
 <script lang="ts" setup>
+useHead({
+  title: 'Lista de Presentes | Casamento Bia & Hugo',
+})
+
 const products = [
   {
     id: 1,
@@ -114,23 +118,3 @@ const products = [
 </script>
 
 <style></style>
-
-<!--
-* Para fazer um pedido de casamento na festa
-* Um jantar romântico em x lugar
-* Algum passeio dependendo do nosso destino
-* Para a creche da Brownie
-* Para um cafe superfaturado para a noiva 
-* Aula de culinária para o noivo
-* Taxa para jogar o buquê para alguém específico
-* Prioridade no quarto de visita na casa dos noivos
-* Aquela massagem no spa do hotel
-* “Eu não vou embora”. Ajuda pra hora extra dos fornecedores
-* 1 ano de pilates para a noiva
-* 1 ano de academia para o noivo
-* Ajudar os noivos a aposentarem mais cedo
-* Despertador para a noiva
-* Kit facas (algo assim apra hugo) - ou alguma outra coisa que tu aches engraçado
-* 14 meses de aluguel (é uma piada com chaves)
-* 12 meses de netflix
--->

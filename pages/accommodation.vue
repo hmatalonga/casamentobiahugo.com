@@ -15,7 +15,7 @@
               <div class="overflow-hidden bg-white shadow sm:rounded-lg">
                 <div class="px-4 py-5 sm:p-6">
                   <div class="px-4 py-5 sm:px-6">
-                    <a :href="item.link" class="text-lg font-medium leading-6 text-indigo-600 hover:text-indigo-500">{{
+                    <a :href="item.link" class="text-lg font-medium leading-6 text-emerald-600 hover:text-emerald-500">{{
                       item.name }}</a>
                   </div>
                   <div class="px-4 py-5 sm:p-6">
@@ -45,6 +45,10 @@
 </template>
 
 <script lang="ts" setup>
+useHead({
+  title: 'Alojamento | Casamento Bia & Hugo',
+})
+
 const items = [
   { id: 1, name: "Villa C Boutique Hotel", distance: "Aproximadamente 4-5 km", time: "10-15 minutos", quality: "Excelente para quem busca um ambiente moderno e sofisticado.", link: "https://www.villacboutiquehotel.com/" },
   { id: 2, name: "B&B HOTEL Porto Expo Aeroporto", distance: "Cerca de 4-5 km", time: "10-15 minutos", quality: "Econômico e confortável, com boa localização perto do aeroporto.", link: "https://www.villacboutiquehotel.com/" },

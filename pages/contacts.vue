@@ -63,6 +63,10 @@
 <script lang="ts" setup>
 import { EnvelopeIcon, PhoneIcon } from '@heroicons/vue/20/solid'
 
+useHead({
+  title: 'Contactos | Casamento Bia & Hugo',
+})
+
 const people = [
   {
     name: 'Bia Brito',

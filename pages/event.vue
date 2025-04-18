@@ -11,7 +11,7 @@
       <main>
         <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
           <div>
-            <h2 class="text-xl/7 font-semibold text-indigo-600">Oi, família e amigos!</h2>
+            <h2 class="text-xl/7 font-semibold text-emerald-600">Oi, família e amigos!</h2>
             <p class="mt-2 text-base/8 text-gray-600">Nosso casamento foi pensado para juntar um pouquinho de Portugal
               com um bocado de Pernambuco — afinal, se é
               pra celebrar, que seja do nosso jeitinho, né?
@@ -31,11 +31,11 @@
                 :class="[stepIdx !== steps.length - 1 ? 'pb-10' : '', 'relative']">
                 <template v-if="step.status === 'complete'">
                   <div v-if="stepIdx !== steps.length - 1"
-                    class="absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 bg-indigo-600" aria-hidden="true" />
+                    class="absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 bg-emerald-600" aria-hidden="true" />
                   <a :href="step.href" class="group relative flex items-start">
                     <span class="flex h-9 items-center">
                       <span
-                        class="relative z-10 flex size-8 items-center justify-center rounded-full bg-indigo-600 group-hover:bg-indigo-800">
+                        class="relative z-10 flex size-8 items-center justify-center rounded-full bg-emerald-600 group-hover:bg-emerald-800">
                         <CheckIcon class="size-5 text-white" aria-hidden="true" />
                       </span>
                     </span>
@@ -51,12 +51,12 @@
                   <a :href="step.href" class="group relative flex items-start" aria-current="step">
                     <span class="flex h-9 items-center" aria-hidden="true">
                       <span
-                        class="relative z-10 flex size-8 items-center justify-center rounded-full border-2 border-indigo-600 bg-white">
-                        <span class="size-2.5 rounded-full bg-indigo-600" />
+                        class="relative z-10 flex size-8 items-center justify-center rounded-full border-2 border-emerald-600 bg-white">
+                        <span class="size-2.5 rounded-full bg-emerald-600" />
                       </span>
                     </span>
                     <span class="ml-4 flex min-w-0 flex-col">
-                      <span class="text-sm font-medium text-indigo-600">{{ step.name }}</span>
+                      <span class="text-sm font-medium text-emerald-600">{{ step.name }}</span>
                       <span class="text-sm text-gray-500">{{ step.description }}</span>
                     </span>
                   </a>
@@ -94,6 +94,10 @@
 
 <script lang="ts" setup>
 import { CheckIcon } from '@heroicons/vue/20/solid'
+
+useHead({
+  title: 'Evento | Casamento Bia & Hugo',
+})
 
 const steps = [
   { name: '13:30 - Recepção & Boas Vindas', description: 'Este é o momento de chegada de todos os convidados, com direito a umas boas taças de champanhe! Momento de descontração, que também será de grande ajuda para o noivo não ficar tão nervoso. 😉', href: '#', status: 'complete' },
