@@ -14,7 +14,7 @@
             <div class="mt-9 mb-3">
               <h1 class="text-white font-display uppercase tracking-wider text-6xl sm:text-7xl">Beatriz &amp; Hugo</h1>
             </div>
-            <h3 class="text-white font-note text-4xl sm:text-5xl">Vila do Conde, Portugal</h3>
+            <h3 class="text-white font-note text-4xl sm:text-5xl">Portugal</h3>
           </div>
         </div>
       </div>
