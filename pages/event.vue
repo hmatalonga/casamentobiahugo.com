@@ -22,8 +22,8 @@
               Venham preparados para horas de alegria, com sotaque misturado, coração quente e histórias
               boas
               para lembrar.</p>
-            <p class="mt-6">Com carinho</p>
-            <p class="mt-1 font-semibold">Bia & Hugo</p>
+            <p class="mt-6">Com carinho,</p>
+            <p class="mt-1 font-semibold">Beatriz &amp; Hugo</p>
           </div>
           <nav class="py-10" aria-label="Progress">
             <ol role="list" class="overflow-hidden">
