@@ -9,8 +9,11 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss"
   ],
   css: ['~/assets/css/main.css'],
-  colorMode: {
-    preference: 'light'
+
+  runtimeConfig: {
+    public: {
+      baseUrl: process.env.BASE_URL || 'http://localhost:3000',
+    },
   },
 
   app: {
