@@ -29,7 +29,7 @@
             <div class="flex flex-col justify-center items-center">
               <div class="font-display text-4xl text-center">6 de Setembro 2025</div>
               <div class="font-note text-2xl mt-2 text-center">Casa Salgueiro, Labruge, Portugal</div>
-              <NuxtLink to="https://google.com" class="rounded-full bg-pink-950 px-12 py-2.5 mt-16 font-display underline text-lg text-amber-100 shadow-sm hover:bg-pink-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-600">RSVP</NuxtLink>
+              <NuxtLink to="https://forms.gle/yaq6wfJmgCYNhzdW8" class="rounded-full bg-pink-950 px-12 py-2.5 mt-16 font-display underline text-lg text-amber-100 shadow-sm hover:bg-pink-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-600">RSVP</NuxtLink>
             </div>
           </div>
           </div>
