@@ -46,8 +46,8 @@
               <div class="mt-5 sm:mt-6">
                 <button type="button"
                   class="inline-flex w-full justify-center rounded-md bg-emerald-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600"
-                  @click="copy(source)">
-                <span v-if="!copied">Copiar CPF</span>
+                  @click="copy(selectedProduct.pix)">
+                <span v-if="!copied">Pix Copia e Cola</span>
                 <span v-else>Copiado!</span>
                 </button>
               </div>
@@ -82,6 +82,7 @@ const products = [
     imageAlt: "Safari em Zanzibar",
     price: 'R$1000',
     isOpen: false,
+    pix: '00020126460014BR.GOV.BCB.PIX0124bbc.psicologia@gmail.com52040000530398654071000.005802BR5923Beatriz de Brito Coelho6009SAO PAULO62140510I5nLdf9mnj63049009',
   },
   {
     id: 2,
@@ -91,6 +92,7 @@ const products = [
     imageAlt: "Café super faturado da Bia",
     price: 'R$100',
     isOpen: false,
+    pix: '00020126460014BR.GOV.BCB.PIX0124bbc.psicologia@gmail.com5204000053039865406100.005802BR5923Beatriz de Brito Coelho6009SAO PAULO62140510YuRiqFL3SK6304E3F0',
   },
   {
     id: 3,
@@ -100,6 +102,7 @@ const products = [
     imageAlt: "1 Ano de Netflix",
     price: 'R$400',
     isOpen: false,
+    pix: '00020126460014BR.GOV.BCB.PIX0124bbc.psicologia@gmail.com5204000053039865406400.005802BR5923Beatriz de Brito Coelho6009SAO PAULO62140510T5U5ckDYXG63049E6E',
   },
   {
     id: 4,
@@ -109,6 +112,7 @@ const products = [
     imageAlt: "Aula de culinária para o Hugo",
     price: 'R$150',
     isOpen: false,
+    pix: '00020126460014BR.GOV.BCB.PIX0124bbc.psicologia@gmail.com5204000053039865406150.005802BR5923Beatriz de Brito Coelho6009SAO PAULO62140510dvYWUhin6R6304DFED',
   },
   {
     id: 5,
@@ -118,6 +122,7 @@ const products = [
     imageAlt: "1 Ano de Pilates para a Bia",
     price: 'R$300',
     isOpen: false,
+    pix: '00020126460014BR.GOV.BCB.PIX0124bbc.psicologia@gmail.com5204000053039865406300.005802BR5923Beatriz de Brito Coelho6009SAO PAULO62140510ELhhsuigeI6304D14B',
   },
   {
     id: 6,
@@ -127,6 +132,7 @@ const products = [
     imageAlt: "1 Ano de Academia para o Hugo",
     price: 'R$200',
     isOpen: false,
+    pix: '00020126460014BR.GOV.BCB.PIX0124bbc.psicologia@gmail.com5204000053039865406200.005802BR5923Beatriz de Brito Coelho6009SAO PAULO62140510ckkDi6ozsX63041BBD',
   },
   {
     id: 7,
@@ -136,6 +142,7 @@ const products = [
     imageAlt: "Para fazer o seu pedido de casamento na festa",
     price: 'R$100.000',
     isOpen: false,
+    pix: '00020126460014BR.GOV.BCB.PIX0124bbc.psicologia@gmail.com5204000053039865407100000.005802BR5923Beatriz de Brito Coelho6009SAO PAULO62140510I5nLdf9mnj63049009',
   },
   {
     id: 8,
@@ -145,6 +152,7 @@ const products = [
     imageAlt: "Para a creche da Brownie durante a Lua de Mel",
     price: 'R$600',
     isOpen: false,
+    pix: '00020126460014BR.GOV.BCB.PIX0124bbc.psicologia@gmail.com5204000053039865406600.005802BR5923Beatriz de Brito Coelho6009SAO PAULO621405103gNVteI81u63042A22',
   },
   {
     id: 9,
@@ -154,6 +162,7 @@ const products = [
     imageAlt: '"Eu não vou embora!" Ajuda para hora extra dos fornecedoress',
     price: 'R$700',
     isOpen: false,
+    pix: '00020126460014BR.GOV.BCB.PIX0124bbc.psicologia@gmail.com5204000053039865406700.005802BR5923Beatriz de Brito Coelho6009SAO PAULO62140510xFUYQ6HqJm6304B7A2',
   },
   {
     id: 10,
@@ -163,6 +172,7 @@ const products = [
     imageAlt: 'Massagem de casal no Resort',
     price: 'R$500',
     isOpen: false,
+    pix: '00020126460014BR.GOV.BCB.PIX0124bbc.psicologia@gmail.com5204000053039865406500.005802BR5923Beatriz de Brito Coelho6009SAO PAULO62140510nzVxOvwVyx630416FA',
   },
 ]
 
