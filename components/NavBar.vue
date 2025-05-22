@@ -4,7 +4,7 @@
       <div class="flex h-16 justify-between">
         <div class="flex">
           <div class="flex shrink-0 items-center">
-            <img class="h-8 w-auto" src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=emerald&shade=600"
+            <img class="h-12 w-auto" src="/images/nav_logo.png"
               alt="Casamento Beatriz e Hugo" />
             <!-- <NuxtImg class="h-8 w-auto" src="/images/logo_bird_small.png" alt="Casamento Beatriz e Hugo"
             placeholder /> -->
