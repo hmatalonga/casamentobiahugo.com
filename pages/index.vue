@@ -3,7 +3,7 @@
     <header>
       <NavBar />
     </header>
-    <div class="bg-hero bg-no-repeat bg-cover bg-fixed bg-center">
+    <div class="bg-hero bg-no-repeat bg-cover bg-fixed sm:bg-center">
         <div class="mx-auto max-w-3xl px-6 lg:px-8">
           <div class="min-h-svh flex justify-center items-center">
             <div class="text-center">
