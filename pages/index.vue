@@ -29,17 +29,10 @@
             <div class="sm:col-span-2 mb-6 sm:mb-0">
               <div class="prose mx-auto max-w-xl px-3 py-4">
                 <h1 class="font-serif text-gray-700">Oi, família e amigos!</h1>
-                <p class="font-sans text-gray-700">
-                  Nosso casamento foi pensado para juntar um pouquinho de Portugal
-                  com um bocado de Pernambuco — afinal, se é
-                  pra celebrar, que seja do nosso jeitinho, né?
-                  Como a turma de Recife vai chegar em peso (e a gente sabe que vocês não brincam em serviço quando o
-                  assunto
-                  é festa), resolvemos compartilhar uma linha do tempo da programação para ninguém ser pego de surpresa.
-                  Spoiler: vai ter muita hora pra dançar, rir e aproveitar!
-                  Venham preparados para horas de alegria, com sotaque misturado, coração quente e histórias
-                  boas
-                  para lembrar.
+                <p class="font-sans text-gray-700 text-justify">
+                  Nosso casamento é um encontro de Portugal com Pernambuco — uma celebração das nossas raízes, do nosso jeito.
+                  Para quem vem de longe, preparamos algumas dicas no menu do site que podem ajudar na viagem.
+                  E para todos, o link para confirmação de presença está logo abaixo, com todos os detalhes.
                 </p>
                 <p class="mt-6">Com carinho,</p>
                 <h3 class="mt-1 font-semibold font-serif uppercase tracking-wider">Beatriz &amp; Hugo</h3>
