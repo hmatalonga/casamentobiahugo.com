@@ -12,17 +12,15 @@
         <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
           <div>
             <h2 class="text-xl/7 font-semibold text-emerald-600">Oi, família e amigos!</h2>
-            <p class="mt-2 text-base/8 text-gray-600">Nosso casamento foi pensado para juntar um pouquinho de Portugal
-              com um bocado de Pernambuco — afinal, se é
-              pra celebrar, que seja do nosso jeitinho, né?
-              Como a turma de Recife vai chegar em peso (e a gente sabe que vocês não brincam em serviço quando o
-              assunto
-              é festa), resolvemos compartilhar uma linha do tempo da programação para ninguém ser pego de surpresa.
-              Spoiler: vai ter muita hora pra dançar, rir e aproveitar!
-              Venham preparados para horas de alegria, com sotaque misturado, coração quente e histórias
-              boas
-              para lembrar.</p>
-            <p class="mt-6">Com carinho,</p>
+            <p class="mt-2 text-base/8 text-gray-600">Nosso casamento vai seguir o estilo português, com uma programação
+              que dura muitas horas — e, claro, com muito de Recife no meio da festa!
+            </p>
+            <p class="mt-2 text-base/8 text-gray-600">Pra ninguém ser pego de surpresa (especialmente quem vem de fora),
+              preparamos uma linha do tempo com tudo
+              que vai rolar.</p>
+            <p class="mt-2 text-base/8 text-gray-600">Spoiler: vai ter muita música, dança e alegria do começo ao fim!
+              🪩</p>
+            <p class="mt-6 text-gray-600">Com carinho,</p>
             <p class="mt-1 font-semibold">Beatriz &amp; Hugo</p>
           </div>
           <nav class="py-10" aria-label="Progress">
@@ -81,7 +79,7 @@
             </ol>
           </nav>
           <div>
-            <p class="text-base/8 text-gray-900">Nosso casamento foi pensado para juntar um pouquinho de Portugal
+            <p class="text-base/8 text-gray-600">Nosso casamento foi pensado para juntar um pouquinho de Portugal
               Esperamos muito que você venha e aproveite cada momento. Serão 15h de festa, então vamos juntos fazer cada
               parte
               valer a pena 💖</p>

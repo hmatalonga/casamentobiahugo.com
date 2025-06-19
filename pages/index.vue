@@ -24,7 +24,7 @@
         <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
           <div class="grid sm:grid-cols-3">
             <div class="order-last sm:order-none sm:col-span-1">
-              <NuxtImg class="w-auto rounded-lg h-auto mx-auto" src="/images/hero2.jpeg" placeholder />
+              <!-- <NuxtImg class="w-auto rounded-lg h-auto mx-auto" src="/images/hero2.jpeg" placeholder /> -->
             </div>
             <div class="sm:col-span-2 mb-6 sm:mb-0">
               <div class="prose mx-auto max-w-xl px-3 py-4">
@@ -51,8 +51,6 @@
 </template>
 
 <script lang="ts" setup>
-import { NuxtLink } from '#components';
-
 useHead({
   title: 'Casamento Bia & Hugo',
 })

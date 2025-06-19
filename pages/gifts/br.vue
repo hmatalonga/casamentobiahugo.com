@@ -4,17 +4,11 @@
     <div class="py-10">
       <header>
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h1 class="sr-only">Sobre presentes e tradições 💌</h1>
-          <h1 class="text-3xl font-bold tracking-tight text-gray-900 text-center">Sobre presentes e tradições 💌</h1>
-          <p class="mt-4 text-base/8 text-gray-600">Em Portugal, é tradicional que os convidados levem um envelope com
-            uma contribuição em dinheiro no dia do casamento. É uma forma simbólica de apoiar o casal nesse novo começo
-            — uma tradição que vem cheia de afeto e significado.</p>
-          <p class="mt-2 text-base/8 text-gray-600">Como a gente sabe que o euro não anda dos mais simpáticos
-            ultimamente, além dessa possibilidade, também vamos compartilhar algumas sugestões de prendas — pra quem
-            quiser se fazer presente de outro jeito, com o mesmo carinho.</p>
-          <p class="mt-2 text-base/8 text-gray-600">O que mais queremos é celebrar esse momento com quem a gente ama. No
-            fim das contas, o mais importante é ter vocês lá com a gente. O resto vem do coração — e isso vale mais do
-            que qualquer costume. 💛</p>
+          <h1 class="sr-only">Aos amigos e família de Recife 💌</h1>
+          <h1 class="text-3xl font-bold tracking-tight text-gray-900 text-center">Aos amigos e família de Recife 💌</h1>
+          <p class="mt-4 text-base/8 text-gray-600">Nossa lista de presentes está aqui embaixo. Pode selecionar o que
+            quiser oferecer e receberá o link do pix copia e cola automaticamente. Por favor, deixa uma nota para
+            sabermos quem está a presentear, afinal vamos querer agradecer a todos!</p>
         </div>
       </header>
       <main>
@@ -47,8 +41,8 @@
                 <button type="button"
                   class="inline-flex w-full justify-center rounded-md bg-emerald-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600"
                   @click="copy(selectedProduct.pix)">
-                <span v-if="!copied">Pix Copia e Cola</span>
-                <span v-else>Copiado!</span>
+                  <span v-if="!copied">Pix Copia e Cola</span>
+                  <span v-else>Copiado!</span>
                 </button>
               </div>
             </div>
