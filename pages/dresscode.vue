@@ -19,23 +19,17 @@
               tecidos frescos são super bem-vindos! Para os rapazes, não precisam estar com fato completo, mas please
               não venham de gangas 😅</p>
             <p class="mt-4 text-base/8 text-gray-600">Evitem brilhos exagerados, branco (claro!) e preto. Queremos um
-              dia cheio de luz, cor e alegria!</p>
+              dia cheio de luz, cor e alegria! 🌼</p>
             <p class="mt-4 text-base/8 text-gray-600">E ah, só uma dica: para quem é friorenta, levar algum casaco para
               de noite.</p>
           </div>
           <div class="grid grid-cols-2 items-center gap-3 py-8 sm:gap-6 sm:grid-cols-3">
-            <NuxtImg class="w-full h-auto" src="/images/dress_men1.jpeg"
-            placeholder />
-            <NuxtImg class="w-full h-auto" src="/images/dress_women3.jpeg"
-            placeholder />
-            <NuxtImg class="w-full h-auto" src="/images/dress_men2.jpeg"
-            placeholder />
-            <NuxtImg class="w-full h-auto" src="/images/dress_women2.jpeg"
-            placeholder />
-            <NuxtImg class="w-full h-auto" src="/images/dress_men3.jpeg"
-            placeholder />
-            <NuxtImg class="w-full h-auto" src="/images/dress_women1.jpeg"
-            placeholder />
+            <NuxtImg class="w-full h-auto" src="/images/dress_men1.jpeg" placeholder />
+            <NuxtImg class="w-full h-auto" src="/images/dress_women3.jpeg" placeholder />
+            <NuxtImg class="w-full h-auto" src="/images/dress_men2.jpeg" placeholder />
+            <NuxtImg class="w-full h-auto" src="/images/dress_women2.jpeg" placeholder />
+            <NuxtImg class="w-full h-auto" src="/images/dress_men3.jpeg" placeholder />
+            <NuxtImg class="w-full h-auto" src="/images/dress_women1.jpeg" placeholder />
           </div>
         </div>
       </main>
