@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="bg-white">
     <NavBar />
     <div class="py-10">
       <header>
