@@ -6,12 +6,7 @@
         <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h1 class="sr-only">Lista de Presentes</h1>
           <h1 class="text-3xl font-bold tracking-tight text-gray-900 text-center">Lista de Presentes</h1>
-
         </div>
-        <!-- <div class="mx-auto max-w-2xl text-center">
-          <h2 class="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">Contactos</h2>
-          <p class="mt-2 text-lg/8 text-gray-600">Caso tenha alguma dúvida, não hesite em nos contactar.</p>
-        </div> -->
       </header>
       <main>
         <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">

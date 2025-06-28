@@ -15,11 +15,11 @@
       <main>
         <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
           <div>
-            <p class="text-base/8 text-gray-600">Como ainda vamos estar no verão, vestidos leves, com cores bonitas e
-              tecidos frescos são super bem-vindos! Para os rapazes, não precisam estar com fato completo, mas please
-              não venham de gangas 😅</p>
+            <p class="text-base/8 text-gray-600">Como ainda vamos estar no verão, vestidos leves, com cores alegres e
+              tecidos frescos são super bem-vindos! Para os rapazes, não precisam estar com fato completo, mas sem uso
+              de gangas (calças jeans), please 🤎</p>
             <p class="mt-4 text-base/8 text-gray-600">Evitem brilhos exagerados, branco (claro!) e preto. Queremos um
-              dia cheio de luz, cor e alegria! 🌼</p>
+              dia cheio de luz e cor! 🌼</p>
             <p class="mt-4 text-base/8 text-gray-600">E ah, só uma dica: para quem é friorenta, levar algum casaco para
               de noite.</p>
           </div>

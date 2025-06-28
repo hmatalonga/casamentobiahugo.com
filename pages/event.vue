@@ -99,12 +99,13 @@ useHead({
 
 const steps = [
   { name: '13:30 - Recepção & Boas Vindas', description: 'Este é o momento de chegada de todos os convidados, com direito a umas boas taças de champanhe! Momento de descontração, que também será de grande ajuda para o noivo não ficar tão nervoso. 😉', href: '#', status: 'complete' },
-  { name: '14:15 - Início da Cerimônia 💒', description: '', href: '#', status: 'current' },
-  { name: '15:00 - Fotos, Finger Foods & Música', description: 'Após a cerimônia, seguimos com as fotos. Durante este tempo, serão servidos finger foods da culinária portuguesa, já para começarem a sentir o gostinho tuga! Também teremos DJ para entrar no clima. 🪩', href: '#', status: 'upcoming' },
-  { name: '16:30 - Recepção Gastronômica', description: 'Aqui, todos sentam-se à mesa e desfrutam de uma refeição tradicional - garantimos que será uma experiência única. 🍷', href: '#', status: 'upcoming' },
-  { name: '18:00 - Início da Pista de Dança (Banda + DJ)', description: 'Após a recepção gastronômica, a pista de dança se abre com a banda ao vivo e, em seguida, o DJ assume. A festa começa a esquentar! 🍾', href: '#', status: 'upcoming' },
-  { name: '00:00 - Corte do Bolo', description: 'Tradição em Portugal, que para além do corte de bolo, fazem também brindes ao casal! 🥂', href: '#', status: 'upcoming' },
-  { name: '00:30 - Ceia', description: 'Um casamento português precisa de comida (e a noiva taurina agradece)! Após o corte do bolo, servimos uma ceia com uma oferta de snacks para manter os sobreviventes na ativa. 💃🕺', href: '#', status: 'upcoming' },
+  { name: '14:00 - Início da Cerimônia 💒', description: '', href: '#', status: 'current' },
+  { name: '14:45 - Fotos, Finger Foods & Música', description: 'Após a cerimônia, seguimos com as fotos. Durante este tempo, serão servidos finger foods da culinária portuguesa, já para começarem a sentir o gostinho tuga! Também teremos DJ para entrar no clima. 🪩', href: '#', status: 'upcoming' },
+   { name: '16:30 - Banda ao Vivo', description: 'Hora da banda ao vivo. É hora de ver os noivos descerem na "boquinha da garrafa"! 🍾', href: '#', status: 'upcoming' },
+  { name: '18:30 - Recepção Gastronômica', description: 'Aqui, todos sentam-se à mesa e desfrutam de uma refeição tradicional 🍷', href: '#', status: 'upcoming' },
+  { name: '20:30 - Abertura da Pista de Dança', description: 'A pista de dança vai abrir, e a festa vai comecar! 🎉', href: '#', status: 'upcoming' },
+  { name: '23:30 - Corte do Bolo', description: 'Tradição em Portugal, que para além do corte de bolo, fazem também brindes ao casal! 🥂', href: '#', status: 'upcoming' },
+  { name: '00:30 - Ceia', description: 'Um casamento português precisa de comida (e a noiva taurina agradece)! Após o corte do bolo, servimos uma ceia, com snacks para manter os sobreviventes na ativa. 💃🕺', href: '#', status: 'upcoming' },
   { name: '01:00 até 04:00 - Música e Continuação da Festa', description: 'A festa segue com música animada, onde todos podem continuar dançando até o final da festa. Provavelmente a base de muito café! Queremos ver quem vai aguentar até o fim ☕️ ✨', href: '#', status: 'upcoming' },
 ]
 </script>
