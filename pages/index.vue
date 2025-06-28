@@ -3,7 +3,10 @@
     <header>
       <NavBar />
     </header>
-    <div class="bg-hero bg-no-repeat bg-cover bg-fixed sm:bg-center">
+
+    <div class="fixed-bg bg-hero bg-no-repeat bg-cover sm:bg-center"></div>
+
+    <div>
         <div class="mx-auto max-w-3xl px-6 lg:px-8">
           <div class="min-h-svh flex justify-center items-center">
             <div class="text-center">
@@ -22,11 +25,8 @@
     <main>
       <div class="bg-stone-50">
         <div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-          <div class="grid sm:grid-cols-3">
-            <div class="order-last sm:order-none sm:col-span-1">
-              <!-- <NuxtImg class="w-auto rounded-lg h-auto mx-auto" src="/images/hero2.jpeg" placeholder /> -->
-            </div>
-            <div class="sm:col-span-2 mb-6 sm:mb-0">
+          <div class="grid sm:grid-cols-1">
+            <div>
               <div class="prose mx-auto max-w-xl px-3 py-4">
                 <h1 class="font-serif text-gray-700">Oi, família e amigos!</h1>
                 <p class="font-sans text-gray-700 text-justify">
@@ -56,4 +56,13 @@ useHead({
 })
 </script>
 
-<style></style>
+<style>
+.fixed-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* Make it fill the viewport */
+  z-index: -1; /* Ensure it's behind other content */
+}
+</style>
