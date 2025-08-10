@@ -17,12 +17,15 @@
             <NuxtLink to="https://forms.gle/yaq6wfJmgCYNhzdW8" target="_blank"
               class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">
               RSVP</NuxtLink>
-            <NuxtLink v-show="isFromInvite" to="/gifts"
+            <NuxtLink to="/gifts"
               class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">
               Lista de Presentes</NuxtLink>
             <NuxtLink to="/event"
               class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">
               Evento</NuxtLink>
+            <NuxtLink to="/directions"
+              class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">
+              Como Chegar</NuxtLink>  
             <NuxtLink to="/accommodation"
               class="inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700">
               Alojamento</NuxtLink>
@@ -56,12 +59,15 @@
         <DisclosureButton as="a" href="https://forms.gle/yaq6wfJmgCYNhzdW8" target="_blank"
           class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700">
           RSVP</DisclosureButton>
-        <DisclosureButton v-show="isFromInvite" as="a" href="/gifts"
+        <DisclosureButton as="a" href="/gifts"
           class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700">
           Lista de Presentes</DisclosureButton>
         <DisclosureButton as="a" href="/event"
           class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700">
           Evento</DisclosureButton>
+        <DisclosureButton as="a" href="/directions"
+          class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700">
+          Como Chegar</DisclosureButton>
         <DisclosureButton as="a" href="/accommodation"
           class="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700">
           Alojamento</DisclosureButton>
@@ -79,15 +85,4 @@
 <script setup>
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 import { Bars3Icon, XMarkIcon } from '@heroicons/vue/24/outline'
-
-const route = useRoute()
-
-const isFromInvite = ref(false)
-
-onBeforeMount(() => {
-  if (route.query?.source === 'invite' && !localStorage.getItem('source')) {
-    localStorage.setItem('source', 'invite')
-  }
-  isFromInvite.value = localStorage.getItem('source') === 'invite'
-})
 </script>
